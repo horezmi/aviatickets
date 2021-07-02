@@ -1,0 +1,31 @@
+.App {
+    max-width: 750px;
+    margin: 0 auto;
+
+    .logo {
+        text-align: center;
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+
+        .transfers {
+            flex: 33%;
+        }
+        .main__filters-tickets {
+            display: flex;
+            flex-direction: column;
+
+            flex: 66%;
+
+            .filters {
+                display: flex;
+            }
+            .tickets {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
