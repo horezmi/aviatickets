@@ -1,5 +1,8 @@
 .App {
-    max-width: 750px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7f848b;
+    max-width: 850px;
     margin: 0 auto;
 
     .logo {
@@ -10,18 +13,39 @@
         display: flex;
         justify-content: space-between;
 
-        .transfers {
-            flex: 33%;
+        .transfers-filter {
+            width: 300px;
+
+            padding: 10px;
+            border: 1px solid red;
+            background-color: #fff;
+
+            &__box {
+                padding-top: 10px;
+
+                label {
+                    padding-left: 5px;
+                }
+            }
         }
-        .main__filters-tickets {
+
+        .header-tickets {
             display: flex;
             flex-direction: column;
 
-            flex: 66%;
+            width: 500px;
 
-            .filters {
+            .header-filter {
                 display: flex;
+                justify-content: space-between;
+
+                &__tab {
+                    background-color: #0b89ff;
+                    text-align: center;
+                    padding: 20px;
+                }
             }
+
             .tickets {
                 display: flex;
                 flex-direction: column;
