@@ -1,0 +1,33 @@
+.ticket {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #fff;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span {
+            font-size: 30px;
+            color: #0b89ff;
+        }
+    }
+
+    .header-mod {
+        color: rgb(185, 184, 184);
+        margin-bottom: 5px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+
+            margin-top: 15px;
+        }
+    }
+}

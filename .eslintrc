@@ -59,5 +59,8 @@
     "quotes": "off",
     "eol-last": "off",
     "arrow-body-style": "off",
+    "react/jsx-indent": "off",
+    "indent": "off",
+    "semi": "off",
   }
 }

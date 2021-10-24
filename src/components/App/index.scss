@@ -1,7 +1,7 @@
 .App {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #7f848b;
+    color: rgb(99, 99, 99);
     max-width: 850px;
     margin: 0 auto;
 
@@ -17,7 +17,6 @@
             width: 300px;
 
             padding: 10px;
-            border: 1px solid red;
             background-color: #fff;
 
             &__box {
@@ -25,6 +24,7 @@
 
                 label {
                     padding-left: 5px;
+                    cursor: pointer;
                 }
             }
         }
@@ -37,18 +37,29 @@
 
             .header-filter {
                 display: flex;
-                justify-content: space-between;
 
                 &__tab {
-                    background-color: #0b89ff;
                     text-align: center;
                     padding: 20px;
+                    width: 250px;
+                    cursor: pointer;
+                    background-color: #fff;
                 }
-            }
 
-            .tickets {
-                display: flex;
-                flex-direction: column;
+                .tab-left {
+                    border-top-left-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                }
+
+                .tab-right {
+                    border-top-right-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                }
+                
+                .active-tab {
+                    color: #fff;
+                    background-color: #0b89ff;
+                }
             }
         }
     }
