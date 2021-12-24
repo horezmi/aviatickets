@@ -43,7 +43,7 @@
     "max-len": [
       "error",
       {
-        "code": 120,
+        "code": 140,
         "ignoreUrls": true,
         "ignoreTemplateLiterals": true
       }
@@ -62,5 +62,8 @@
     "react/jsx-indent": "off",
     "indent": "off",
     "semi": "off",
+    "key-spacing": "off",
+    "object-curly-spacing": "off",
+    "no-trailing-spaces": "off"
   }
 }
